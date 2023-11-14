@@ -58,7 +58,7 @@ public class NopCommerce {
         //Enter the password to password field.
         driver.findElement(By.id("Password")).sendKeys("shraddha10");
         //Click on Login Button.
-        driver.findElement(By.partialLinkText("Log in")).click();
+        driver.findElement(By.className("login-button")).click();
         //Close the browser.
         driver.quit();
 
