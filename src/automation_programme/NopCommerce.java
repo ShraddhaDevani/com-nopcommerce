@@ -54,7 +54,7 @@ public class NopCommerce {
         //Refresh the page.
         driver.navigate().refresh();
         //Enter the email to email field.
-        driver.findElement(By.id("Email")).sendKeys("shraddha@gmail.com");
+        driver.findElement(By.id("Email")).sendKeys("shraddhadevani@gmail.com");
         //Enter the password to password field.
         driver.findElement(By.id("Password")).sendKeys("shraddha10");
         //Click on Login Button.
